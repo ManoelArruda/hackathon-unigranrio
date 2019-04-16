@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e5e5e5;    
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;    
+}
+#header-title{
+    color: #17a4a3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header-inscricao{
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 33, 230);
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+#header-subtitle{
+    width: 200px;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fab234;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c2c2;    
+}
+.content-footer{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.content-wrapper{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content-text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.content-title{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+}
+
+.content-image{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.content-image2{
+    width: 50%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.article-title{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.article-list{
+    margin-top: 10px;
+}
+
+.article-list-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.content-data{
+    text-align: center;
+}
+
+.td-table{
+    font-weight: bold;
+}
+
+.article-table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.article-table > thead{
+    background: #808080;
+}
+
+thead tr td{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    width: 50%;
+}
+
+.article-table > tbody{
+    background-color: white;
+}
+
+/* COLOCAR COR EM UMA LINHA
+tbody tr:nth-child(2){
+    background-color: pink;
+}*/
+
+tbody tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
+/* INÍCIO DA ESTILIZAÇÃO DA TABELA ETAPAS E CALENDÁRIO */
+
+/* PREENCHIMENTO PLANO DE FUNDO TABELA LINHAS 1 E 2 */
+.tbody-etapas tr:nth-child(2){
+    background-color: #C5DBF8;
+}
+.tbody-etapas tr:nth-child(1){
+    background-color: #C5DBF8;
+}
+
+/* PREENCHIMENTO PLANO DE FUNDO TABELA LINHAS 3 E 4 */
+.tbody-etapas tr:nth-child(3){
+    background-color: #FFE49D;
+}
+.tbody-etapas tr:nth-child(4){
+    background-color: #FFE49D;
+}
+
+/* PREENCHIMENTO PLANO DE FUNDO TABELA LINHAS 5 E 6 */
+.tbody-etapas tr:nth-child(5){
+    background-color: #92C47D;
+}
+.tbody-etapas tr:nth-child(6){
+    background-color: #92C47D;
+}
+/* FIM DA ESTILIZAÇÃO DA TABELA*/
+
+/*==================================================================================================*/
+
+/* INÍCIO DA ESTILIZAÇÃO DA TABELA INSCRIÇÃO ONLINE*/
+.inscricao-table{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.inscricao-table tr td{
+    border: none;
+}
+/* FIM DA ESTILIZAÇÃO DA TABELA*/
+
+/*==================================================================================================*/
+
+/* INÍCIO DA ESTILIZAÇÃO DA TABELA CRITÉRIOS DE SELEÇÃO*/
+.criterio-selecao-table{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.criterio-selecao-table tr td{
+    border: none;
+}
+/* FIM DA ESTILIZAÇÃO DA TABELA*/
+
+/*==================================================================================================*/
+
+/* INÍCIO DA ESTILIZAÇÃO DA TABELA CRITÉRIOS DE SELEÇÃO*/
+.agenda-table{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    border: 1px solid black;;
+}
+
+.agenda-table > thead{
+    background: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+#column-agenda-table1{
+    width: 150px;
+    text-align: center;
+}
+#column-agenda-table2{
+    width: 150px;
+    text-align: center;
+}
+#column-agenda-table3{
+    width: 350px;
+    text-align: center;
+    
+}
+.td-agenda{
+    text-align: center;
+}
+
+/* FIM DA ESTILIZAÇÃO DA TABELA*/
+
+/*==================================================================================================*/
+
+/* INÍCIO DA ESTILIZAÇÃO DA TABELA CRITÉRIOS DE AVALIAÇÃO*/
+.avaliacao-table{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.avaliacao-table tr td{
+    border: none;
+}
+
+.video{
+    margin-left: 20%;
+    width: 70%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
